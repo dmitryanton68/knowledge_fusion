@@ -10,7 +10,7 @@ Abstract: Multitask learning is critical for the development of artificial gener
 ***
 __The code is written in Python 3.8 using the [SpykeTorch](https://github.com/miladmozafari/SpykeTorch) framework__
 ***  
-How can we overcome catastrophic forgetting?    
+How to overcome catastrophic forgetting?    
 
 Train one SNN to learn one thing, and another SNN to learn another thing (Fig.a below), and then merge the knowledge of the two SNNs into a single SNN (Fig.b below):   
 
