@@ -12,9 +12,9 @@ __The code is written in Python 3.8 using the [SpykeTorch](https://github.com/mi
 ***  
 How can we overcome catastrophic forgetting?    
 
-Train one SNN to learn one thing (for example, to recognize the number 1, as in the Figure below), and another SNN to learn another thing (to recognize the number 5), and then merge the knowledge of the two SNNs into a single SNN (which will recognize both 1 and 5):   
+Train one SNN to learn one thing, and another SNN to learn another thing (Fig.a below), and then merge the knowledge of the two SNNs into a single SNN (Fig.b below):   
 
-![how to overcome catastrophic forgetting](how_to_overcome_forgetting.jpg)    
+![how to overcome catastrophic forgetting](knowledge_fusion.jpg)    
 
 __The Essence of the Method__    
 
